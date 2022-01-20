@@ -1,6 +1,6 @@
 # Covid Predictions
 
-This repo aims to predict covid cases as well as covid hospitalizations. Another aim of this project is to learn more about time series analysis in all its forms (forecasting, spectral analysis, anomaly detection) which are broken down further below.
+This repo aims to predict covid cases as well as covid hospitalizations as cases continue to rise around the globe. Another aim of this project is to learn more about time series analysis in all its forms (forecasting, spectral analysis, anomaly detection) which are broken down further below.
 
 # Applications:
 
