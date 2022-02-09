@@ -22,6 +22,8 @@ def download_data() -> pd.DataFrame:
     """
     Function to download public dataset on covid numbers ...
 
+    # NOTE: using numpy docstring format: https://numpydoc.readthedocs.io/en/latest/format.html
+
     # NOTE: is there any parameters that allow you to modify what is downloaded??? --- dates or anything else?
     Parameters
     ----------
