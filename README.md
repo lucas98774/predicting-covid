@@ -24,7 +24,7 @@ The easiest way to keep track of files in pip is using pip-tools. This allows fo
 pip-compile requirements.in
 ```
 
-A pinned file (requirements.txt) is created with the explicit versions of the packages and the subdependencies.
+A pinned file (requirements.txt) is created with the explicit versions of the packages and the subdependencies. Then the environment can be reproduced using pip install -r requirements.txt which gives the specific versions of all the packages which helps the pip dependency resolver and makes for a more reproducible build.
 
 # Applications:
 
