@@ -2,6 +2,30 @@
 
 This repo aims to predict covid cases as well as covid hospitalizations as cases continue to rise around the globe. Another aim of this project is to learn more about time series analysis in all its forms (forecasting, spectral analysis, anomaly detection) which are broken down further below.
 
+## Environment Reproduction
+
+There are two methods that have been provided to recreate an environment for this analysis
+
+### 1. Anaconda
+
+Anaconda allows recreating an environment from a yaml file by using the command:
+
+```
+conda env create -f env.yml
+```
+
+Where env.yml is the yaml file created by running conda env export > env.yml. To change the name of the environment on your local machine, change the name field in the env.yml file on line 1.
+
+### 2. Pip
+
+The easiest way to keep track of files in pip is using pip-tools. This allows for keeping track of a requirements.in file where the high level packages (they can be pinned or unpinned) for the project go. The by running:
+
+```
+pip-compile requirements.in
+```
+
+A pinned file (requirements.txt) is created with the explicit versions of the packages and the subdependencies.
+
 # Applications:
 
 ## Feature engineering
