@@ -18,7 +18,7 @@ from sodapy import Socrata
 # Convert to pandas DataFrame
 # results_df = pd.DataFrame.from_records(results)
 
-def download_data():
+def download_data() -> pd.DataFrame:
     """
     Function to download public dataset on covid numbers ...
 
